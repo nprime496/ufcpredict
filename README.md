@@ -1,9 +1,16 @@
 
 
 ![](./ressources/print.jpg)
+
+
+## Test it 
+
+
+The model is deployed [here](https://huggingface.co/spaces/nprime496/ufcpredict)
+
 ## Acknowlegements
 
-Thanks to [@WarrierRajeev](https://github.com/WarrierRajeev/UFC-Predictions)  for uploading this dataset along with very insighful EDA and preprocessing!
+Thanks to [@WarrierRajeev](https://github.com/WarrierRajeev/UFC-Predictions)  for uploading original dataset scraped from ufcstats website along with very insighful EDA and preprocessing!
 
 ## Fighter Dataset Content
 
@@ -13,7 +20,7 @@ The dataset used for prediction of winner is obtained after preprocessing of ori
 Each row is a compilation of both fighter stats. Fighters are represented by 'red' and 'blue' (for red and blue corner). So for instance, red fighter has the complied average stats of all the fights except the current one. The stats include damage done by the red fighter on the opponent and the damage done by the opponent on the fighter (represented by 'opp' in the columns) in all the fights this particular red fighter has had, except this one as it has not occured yet (in the data). Same information exists for blue fighter. The target variable is 'Winner' which is the only column that tells you what happened.
 Here are some column definitions:
 
-## Original Column definitions:
+## Column definitions:
 
 - `R_` and `B_` prefix signifies red and blue corner fighter stats respectively
 - `_opp_` containing columns is the average of damage done by the opponent on the fighter
