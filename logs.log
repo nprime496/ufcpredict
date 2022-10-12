@@ -1,0 +1,1527 @@
+2022-09-05 23:06:30,890:INFO:Initializing load_model()
+2022-09-05 23:06:30,891:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:06:31,120:INFO:Initializing load_model()
+2022-09-05 23:06:31,120:INFO:load_model(model_name=mylgbm_inverse, platform=None, authentication=None, verbose=True)
+2022-09-05 23:25:07,692:INFO:Initializing load_model()
+2022-09-05 23:25:07,699:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:25:07,857:INFO:Initializing load_model()
+2022-09-05 23:25:07,859:INFO:load_model(model_name=mylgbm_inverse, platform=None, authentication=None, verbose=True)
+2022-09-05 23:25:43,977:INFO:Initializing load_model()
+2022-09-05 23:25:43,978:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:25:44,014:INFO:Initializing load_model()
+2022-09-05 23:25:44,014:INFO:load_model(model_name=mylgbm_inverse, platform=None, authentication=None, verbose=True)
+2022-09-05 23:25:44,149:INFO:Initializing blend_models()
+2022-09-05 23:25:44,149:INFO:blend_models(estimator_list=[Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]])], fold=None, round=4, choose_better=False, optimize=Accuracy, method=auto, weights=None, fit_kwargs=None, groups=None, probability_threshold=None, verbose=True, display=None, return_train_score=False)
+2022-09-05 23:25:44,150:INFO:Checking exceptions
+2022-09-05 23:34:05,705:INFO:Initializing load_model()
+2022-09-05 23:34:05,706:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:34:17,752:INFO:Initializing load_model()
+2022-09-05 23:34:17,752:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:34:18,328:INFO:Initializing predict_model()
+2022-09-05 23:34:18,328:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:34:18,329:INFO:Checking exceptions
+2022-09-05 23:34:18,329:INFO:Preloading libraries
+2022-09-05 23:35:27,687:INFO:Initializing load_model()
+2022-09-05 23:35:27,687:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:35:28,013:INFO:Initializing predict_model()
+2022-09-05 23:35:28,013:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:35:28,014:INFO:Checking exceptions
+2022-09-05 23:35:28,014:INFO:Preloading libraries
+2022-09-05 23:37:32,909:INFO:Initializing load_model()
+2022-09-05 23:37:32,910:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:37:33,467:INFO:Initializing predict_model()
+2022-09-05 23:37:33,468:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:37:33,470:INFO:Checking exceptions
+2022-09-05 23:37:33,470:INFO:Preloading libraries
+2022-09-05 23:42:44,114:INFO:Initializing load_model()
+2022-09-05 23:42:44,116:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:42:44,814:INFO:Initializing predict_model()
+2022-09-05 23:42:44,815:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:42:44,817:INFO:Checking exceptions
+2022-09-05 23:42:44,817:INFO:Preloading libraries
+2022-09-05 23:43:30,858:INFO:Initializing load_model()
+2022-09-05 23:43:30,859:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:43:31,220:INFO:Initializing predict_model()
+2022-09-05 23:43:31,221:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:43:31,221:INFO:Checking exceptions
+2022-09-05 23:43:31,221:INFO:Preloading libraries
+2022-09-05 23:45:39,862:INFO:Initializing load_model()
+2022-09-05 23:45:39,862:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:45:40,410:INFO:Initializing predict_model()
+2022-09-05 23:45:40,411:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:45:40,412:INFO:Checking exceptions
+2022-09-05 23:45:40,412:INFO:Preloading libraries
+2022-09-05 23:46:27,553:INFO:Initializing load_model()
+2022-09-05 23:46:27,554:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:46:28,078:INFO:Initializing predict_model()
+2022-09-05 23:46:28,078:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:46:28,078:INFO:Checking exceptions
+2022-09-05 23:46:28,079:INFO:Preloading libraries
+2022-09-05 23:47:32,084:INFO:Initializing load_model()
+2022-09-05 23:47:32,087:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:47:32,691:INFO:Initializing predict_model()
+2022-09-05 23:47:32,692:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:47:32,693:INFO:Checking exceptions
+2022-09-05 23:47:32,693:INFO:Preloading libraries
+2022-09-05 23:47:54,371:INFO:Initializing load_model()
+2022-09-05 23:47:54,377:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:47:55,057:INFO:Initializing predict_model()
+2022-09-05 23:47:55,060:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:47:55,062:INFO:Checking exceptions
+2022-09-05 23:47:55,064:INFO:Preloading libraries
+2022-09-05 23:49:35,307:INFO:Initializing load_model()
+2022-09-05 23:49:35,308:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:49:35,817:INFO:Initializing predict_model()
+2022-09-05 23:49:35,818:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:49:35,818:INFO:Checking exceptions
+2022-09-05 23:49:35,819:INFO:Preloading libraries
+2022-09-05 23:49:48,925:INFO:Initializing load_model()
+2022-09-05 23:49:48,929:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:49:49,573:INFO:Initializing predict_model()
+2022-09-05 23:49:49,574:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:49:49,574:INFO:Checking exceptions
+2022-09-05 23:49:49,575:INFO:Preloading libraries
+2022-09-05 23:50:41,519:INFO:Initializing load_model()
+2022-09-05 23:50:41,523:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:50:42,660:INFO:Initializing predict_model()
+2022-09-05 23:50:42,661:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:50:42,662:INFO:Checking exceptions
+2022-09-05 23:50:42,662:INFO:Preloading libraries
+2022-09-05 23:51:10,726:INFO:Initializing load_model()
+2022-09-05 23:51:10,727:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:51:11,875:INFO:Initializing predict_model()
+2022-09-05 23:51:11,876:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:51:11,878:INFO:Checking exceptions
+2022-09-05 23:51:11,879:INFO:Preloading libraries
+2022-09-05 23:52:40,059:INFO:Initializing load_model()
+2022-09-05 23:52:40,060:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:52:40,709:INFO:Initializing predict_model()
+2022-09-05 23:52:40,710:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:52:40,712:INFO:Checking exceptions
+2022-09-05 23:52:40,714:INFO:Preloading libraries
+2022-09-05 23:53:33,170:INFO:Initializing load_model()
+2022-09-05 23:53:33,170:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-05 23:53:33,544:INFO:Initializing predict_model()
+2022-09-05 23:53:33,545:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-05 23:53:33,545:INFO:Checking exceptions
+2022-09-05 23:53:33,546:INFO:Preloading libraries
+2022-09-06 00:01:49,389:INFO:Initializing load_model()
+2022-09-06 00:01:49,390:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:01:49,685:INFO:Initializing predict_model()
+2022-09-06 00:01:49,686:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:01:49,686:INFO:Checking exceptions
+2022-09-06 00:01:49,686:INFO:Preloading libraries
+2022-09-06 00:01:59,747:INFO:Initializing load_model()
+2022-09-06 00:01:59,747:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:02:00,024:INFO:Initializing predict_model()
+2022-09-06 00:02:00,024:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:02:00,025:INFO:Checking exceptions
+2022-09-06 00:02:00,025:INFO:Preloading libraries
+2022-09-06 00:02:35,487:INFO:Initializing load_model()
+2022-09-06 00:02:35,488:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:02:35,840:INFO:Initializing predict_model()
+2022-09-06 00:02:35,840:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:02:35,841:INFO:Checking exceptions
+2022-09-06 00:02:35,841:INFO:Preloading libraries
+2022-09-06 00:02:48,470:INFO:Initializing load_model()
+2022-09-06 00:02:48,470:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:02:48,809:INFO:Initializing predict_model()
+2022-09-06 00:02:48,810:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:02:48,811:INFO:Checking exceptions
+2022-09-06 00:02:48,811:INFO:Preloading libraries
+2022-09-06 00:08:01,364:INFO:Initializing load_model()
+2022-09-06 00:08:01,373:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:08:02,350:INFO:Initializing predict_model()
+2022-09-06 00:08:02,351:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:08:02,351:INFO:Checking exceptions
+2022-09-06 00:08:02,351:INFO:Preloading libraries
+2022-09-06 00:08:04,861:INFO:Initializing predict_model()
+2022-09-06 00:08:04,874:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:08:04,875:INFO:Checking exceptions
+2022-09-06 00:08:04,875:INFO:Preloading libraries
+2022-09-06 00:11:44,358:INFO:Initializing load_model()
+2022-09-06 00:11:44,358:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:11:44,657:INFO:Initializing predict_model()
+2022-09-06 00:11:44,657:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:11:44,658:INFO:Checking exceptions
+2022-09-06 00:11:44,658:INFO:Preloading libraries
+2022-09-06 00:11:45,760:INFO:Initializing predict_model()
+2022-09-06 00:11:45,760:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:11:45,761:INFO:Checking exceptions
+2022-09-06 00:11:45,761:INFO:Preloading libraries
+2022-09-06 00:11:47,691:INFO:Initializing load_model()
+2022-09-06 00:11:47,691:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:11:47,989:INFO:Initializing predict_model()
+2022-09-06 00:11:47,989:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:11:47,989:INFO:Checking exceptions
+2022-09-06 00:11:47,989:INFO:Preloading libraries
+2022-09-06 00:11:48,979:INFO:Initializing predict_model()
+2022-09-06 00:11:48,980:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:11:48,980:INFO:Checking exceptions
+2022-09-06 00:11:48,980:INFO:Preloading libraries
+2022-09-06 00:18:33,775:INFO:Initializing load_model()
+2022-09-06 00:18:33,775:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:18:34,115:INFO:Initializing predict_model()
+2022-09-06 00:18:34,116:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:18:34,116:INFO:Checking exceptions
+2022-09-06 00:18:34,117:INFO:Preloading libraries
+2022-09-06 00:18:35,366:INFO:Initializing predict_model()
+2022-09-06 00:18:35,367:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:18:35,371:INFO:Checking exceptions
+2022-09-06 00:18:35,372:INFO:Preloading libraries
+2022-09-06 00:19:13,960:INFO:Initializing load_model()
+2022-09-06 00:19:13,962:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:19:14,616:INFO:Initializing predict_model()
+2022-09-06 00:19:14,617:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:19:14,617:INFO:Checking exceptions
+2022-09-06 00:19:14,618:INFO:Preloading libraries
+2022-09-06 00:19:16,700:INFO:Initializing predict_model()
+2022-09-06 00:19:16,701:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:19:16,703:INFO:Checking exceptions
+2022-09-06 00:19:16,704:INFO:Preloading libraries
+2022-09-06 00:19:28,993:INFO:Initializing load_model()
+2022-09-06 00:19:28,994:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:19:29,706:INFO:Initializing predict_model()
+2022-09-06 00:19:29,716:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:19:29,716:INFO:Checking exceptions
+2022-09-06 00:19:29,717:INFO:Preloading libraries
+2022-09-06 00:19:32,124:INFO:Initializing predict_model()
+2022-09-06 00:19:32,130:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:19:32,133:INFO:Checking exceptions
+2022-09-06 00:19:32,140:INFO:Preloading libraries
+2022-09-06 00:20:04,903:INFO:Initializing load_model()
+2022-09-06 00:20:04,904:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:20:05,269:INFO:Initializing predict_model()
+2022-09-06 00:20:05,270:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:20:05,271:INFO:Checking exceptions
+2022-09-06 00:20:05,271:INFO:Preloading libraries
+2022-09-06 00:20:06,745:INFO:Initializing predict_model()
+2022-09-06 00:20:06,746:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:20:06,748:INFO:Checking exceptions
+2022-09-06 00:20:06,748:INFO:Preloading libraries
+2022-09-06 00:20:09,729:INFO:Initializing load_model()
+2022-09-06 00:20:09,734:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:20:10,301:INFO:Initializing predict_model()
+2022-09-06 00:20:10,301:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:20:10,302:INFO:Checking exceptions
+2022-09-06 00:20:10,302:INFO:Preloading libraries
+2022-09-06 00:20:11,848:INFO:Initializing predict_model()
+2022-09-06 00:20:11,851:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:20:11,851:INFO:Checking exceptions
+2022-09-06 00:20:11,852:INFO:Preloading libraries
+2022-09-06 00:21:49,412:INFO:Initializing load_model()
+2022-09-06 00:21:49,415:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:21:49,996:INFO:Initializing predict_model()
+2022-09-06 00:21:49,996:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:21:49,998:INFO:Checking exceptions
+2022-09-06 00:21:49,999:INFO:Preloading libraries
+2022-09-06 00:21:51,726:INFO:Initializing predict_model()
+2022-09-06 00:21:51,728:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:21:51,730:INFO:Checking exceptions
+2022-09-06 00:21:51,735:INFO:Preloading libraries
+2022-09-06 00:22:00,777:INFO:Initializing load_model()
+2022-09-06 00:22:00,777:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:22:01,433:INFO:Initializing predict_model()
+2022-09-06 00:22:01,434:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:22:01,436:INFO:Checking exceptions
+2022-09-06 00:22:01,436:INFO:Preloading libraries
+2022-09-06 00:22:03,071:INFO:Initializing predict_model()
+2022-09-06 00:22:03,074:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:22:03,076:INFO:Checking exceptions
+2022-09-06 00:22:03,077:INFO:Preloading libraries
+2022-09-06 00:23:03,054:INFO:Initializing load_model()
+2022-09-06 00:23:03,054:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:23:03,711:INFO:Initializing predict_model()
+2022-09-06 00:23:03,711:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:23:03,713:INFO:Checking exceptions
+2022-09-06 00:23:03,714:INFO:Preloading libraries
+2022-09-06 00:23:05,376:INFO:Initializing predict_model()
+2022-09-06 00:23:05,377:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:23:05,380:INFO:Checking exceptions
+2022-09-06 00:23:05,380:INFO:Preloading libraries
+2022-09-06 00:24:01,144:INFO:Initializing load_model()
+2022-09-06 00:24:01,144:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:24:01,450:INFO:Initializing predict_model()
+2022-09-06 00:24:01,450:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:24:01,451:INFO:Checking exceptions
+2022-09-06 00:24:01,451:INFO:Preloading libraries
+2022-09-06 00:24:03,293:INFO:Initializing load_model()
+2022-09-06 00:24:03,294:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-09-06 00:24:03,593:INFO:Initializing predict_model()
+2022-09-06 00:24:03,594:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:24:03,594:INFO:Checking exceptions
+2022-09-06 00:24:03,594:INFO:Preloading libraries
+2022-09-06 00:24:04,436:INFO:Initializing predict_model()
+2022-09-06 00:24:04,436:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-09-06 00:24:04,437:INFO:Checking exceptions
+2022-09-06 00:24:04,437:INFO:Preloading libraries
+2022-10-01 17:53:30,491:INFO:Initializing load_model()
+2022-10-01 17:53:30,527:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-10-01 17:53:31,415:INFO:Initializing predict_model()
+2022-10-01 17:53:31,426:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-10-01 17:53:31,429:INFO:Checking exceptions
+2022-10-01 17:53:31,429:INFO:Preloading libraries
+2022-10-01 17:53:32,786:INFO:Initializing predict_model()
+2022-10-01 17:53:32,787:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-10-01 17:53:32,787:INFO:Checking exceptions
+2022-10-01 17:53:32,788:INFO:Preloading libraries
+2022-10-02 02:21:08,252:INFO:Initializing load_model()
+2022-10-02 02:21:08,342:INFO:load_model(model_name=mylgbm_normal, platform=None, authentication=None, verbose=True)
+2022-10-02 02:21:11,692:INFO:Initializing predict_model()
+2022-10-02 02:21:11,692:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-10-02 02:21:11,693:INFO:Checking exceptions
+2022-10-02 02:21:11,693:INFO:Preloading libraries
+2022-10-02 02:21:16,557:INFO:Initializing predict_model()
+2022-10-02 02:21:16,558:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      features_todrop=['location', 'date',
+                                                       'R_fighter', 'B_fighter',
+                                                       'R_fighter_country',
+                                                       'B_fighter_country'],
+                                      ml_usecase='classification',
+                                      numerical_features=['B_avg_KD',
+                                                          'B_avg_opp_KD',
+                                                          'B_avg_SIG_STR_pct',
+                                                          'B_avg_opp_SIG_STR_pct',
+                                                          'B_avg_TD_pct',
+                                                          'B_avg_opp_TD_pct',
+                                                          'B_avg_SUB_ATT',
+                                                          'B_avg_opp_SUB_...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Winner',
+                                       threshold=0.7)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.6, bagging_freq=4,
+                                class_weight='balanced', feature_fraction=0.9,
+                                learning_rate=0.05, min_child_samples=96,
+                                min_split_gain=0.7, n_estimators=180,
+                                num_leaves=10, random_state=123,
+                                reg_alpha=0.0001, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-10-02 02:21:16,558:INFO:Checking exceptions
+2022-10-02 02:21:16,558:INFO:Preloading libraries
